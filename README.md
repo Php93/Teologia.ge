@@ -1,7 +1,7 @@
 
 # Teologia.ge
 
-A site for reading articles, with search and filter capabilities. Many resources available such as hymns, e-books and courses
+A site for reading articles, with search and filter capabilities. Many resources available such as hymns, e-books and courses in Georgian.
 
 ![plot](https://raw.githubusercontent.com/Php93/Teologia.ge/main/hero.png)
 
