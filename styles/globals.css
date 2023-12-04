@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header_link {
+        @apply uppercase whitespace-nowrap tracking-tighter inline-block text-xs font-bold relative cursor-pointer transition-all duration-300 before:content-[''] before:absolute before:-bottom-2 before:left-1/2 before:-translate-x-1/2 before:w-0 before:rounded-full before:h-0.5 before:opacity-0 before:transition-all before:duration-300 before:bg-[#1E5B94] hover:before:w-full hover:before:opacity-100 md:text-xs lg:text-sm
+    }
+    .dropdown_link {
+        @apply uppercase whitespace-nowrap tracking-tighter inline-block text-sm font-bold relative cursor-pointer transition-all duration-300 md:text-xs lg:text-sm
+    }
+    .footer_link_header {
+        @apply mb-5 text-sm sm:text-base
+    }
+    .nav-li {
+        @apply text-2xl text-white mb-2
+    }
+    .checkbox {
+        @apply mr-3 w-4 h-4 bg-gray-100 border-gray-300 rounded focus:ring-[#1E5B94] dark:focus:ring-[#1E5B94] dark:ring-offset-gray-800 focus:ring-2
+    }
+}
+
+.whyyy::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+}
